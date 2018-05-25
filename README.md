@@ -1,1 +1,1 @@
-python-idea
+python-projects

@@ -1,9 +1,9 @@
-##Selenium for Python3
+## Selenium for Python3
 ```
 pip install selenium
 ```
 
-##Driver
+## Driver
 Liste des drivers en fonction des navigateurs :
 
 + Chrome : https://sites.google.com/a/chromium.org/chromedriver/downloads

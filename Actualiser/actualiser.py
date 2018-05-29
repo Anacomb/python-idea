@@ -1,13 +1,18 @@
 from selenium import webdriver
 import time
 import urllib
+import os
 from urllib.request import *
 
-x="source.unsplash.com/random"
-refreshrate=4
+
+file = os.path.abspath("./geckodriver.exe")
+os.environ["Path"] = file
+
+x = input("Lien du site à actualiser : ")
+refreshrate = int(input("Temps d'actualisation --> Toute les x secondes : "))
 driver = webdriver.Firefox()
-driver.get("http://"+x)
+driver.get(x)
 
 while True:
     time.sleep(refreshrate)
-    driver.get("http://"+x)
+    driver.get(x)

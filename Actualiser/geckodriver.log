@@ -1,6 +1,6 @@
-1527505891591	geckodriver	INFO	geckodriver 0.20.1
-1527505891597	geckodriver	INFO	Listening on 127.0.0.1:50928
-1527505894641	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\sanctoru\\AppData\\Local\\Temp\\rust_mozprofile.hzd7pNi34skO"
+1527578835341	geckodriver	INFO	geckodriver 0.20.1
+1527578835348	geckodriver	INFO	Listening on 127.0.0.1:55718
+1527578838421	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\sanctoru\\AppData\\Local\\Temp\\rust_mozprofile.JG12PSIhMXez"
 C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:1: prefs parse error: unexpected character
 Unable to read VR Path Registry from C:\Users\sanctoru\AppData\Local\openvr\openvrpaths.vrpath
 Unable to read VR Path Registry from C:\Users\sanctoru\AppData\Local\openvr\openvrpaths.vrpath
@@ -10,29 +10,32 @@ C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:1: prefs parse erro
 Unable to read VR Path Registry from C:\Users\sanctoru\AppData\Local\openvr\openvrpaths.vrpath
 C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:1: prefs parse error: unexpected character
 Unable to read VR Path Registry from C:\Users\sanctoru\AppData\Local\openvr\openvrpaths.vrpath
-1527505900224	Marionette	INFO	Listening on port 50936
-1527505900523	Marionette	WARN	TLS certificate errors will be ignored for this session
-[Parent 9600, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Parent 9600, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Parent 9600, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 9832, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 9832, Chr
+1527578841835	Marionette	INFO	Listening on port 55726
+1527578842035	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 5084, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5084, Chrome_ChildThread] WARNING: pipe[Parent 9120, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9092, Chrome[Parent 9120, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-1: prefs parse error: unexpected character
+1527578884086	geckodriver	INFO	geckodriver 0.20.1
+1527578884092	geckodriver	INFO	Listening on 127.0.0.1:55759
+1527578887123	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\sanctoru\\AppData\\Local\\Temp\\rust_mozprofile.iQ4XuWE38L3K"
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:1: prefs parse error: unexpected character
+Unable to read VR Path Registry from C:\Users\sanctoru\AppData\Local\openvr\openvrpaths.vrpath
 Unable to read VR Path Registry from C:\Users\sanctoru\AppData\Local\openvr\openvrpaths.vrpath
 C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:1: prefs parse error: unexpected character
 Unable to read VR Path Registry from C:\Users\sanctoru\AppData\Local\openvr\openvrpaths.vrpath
 C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:1: prefs parse error: unexpected character
 Unable to read VR Path Registry from C:\Users\sanctoru\AppData\Local\openvr\openvrpaths.vrpath
-1527505949350	Marionette	INFO	Listening on port 51004
-1527505950147	Marionette	WARN	TLS certificate errors will be ignored for this session
-[Parent 4600, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Parent 4600, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 8260, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 34[6Child 3064, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src
-/ipc[Child 8260, Chrome_ChildThrea/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 3064, Chrome_ChildThread] WARNING: pipe error: 109: [Parent 4600, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 5432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 5432, Chro
+C:\Program Files\Mozilla Firefox\defaults\pref\autoconfig.js:1: prefs parse error: unexpected character
+Unable to read VR Path Registry from C:\Users\sanctoru\AppData\Local\openvr\openvrpaths.vrpath
+1527578890752	Marionette	INFO	Listening on port 55767
+1527578891853	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 11164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/bui[Parent 9976, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
